@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.3.3
+- 2.3.3
+deploy:
+  provider: heroku
+  api_key:
+    secure: kMFoxPdN6Ul9QF+F7KrgpZHNqGuaWxoU2Oi1QxDKDJEs0fj0kORRWVmtsDg5aCvOkV3Zy6MKG+oTz3iSNMP1G1nQica2s80dNTn2rXoJTNOTP2SSRGpWIjQ9Opef5ULweMQLBGmxL/0o2sGc2HqD7AckWOqi/S/0O/WobJZgJfsJtqMgTyUbFpbc59t0wZGUPRReIrzgqKmb7kp1HVUUEom8qqkGyZqrfwi77h8UEkEsucHoyIc+9NXLS2M4/MGghyOJIGb1mfJeSfl8EqgI7omZrsy+kjX997zixwaBRYXvPX6KV0mCHmEcLYtX1/0H/fHFNG9pXvnhywnpxatwVJ1OcwX+FScWEU+isKLnOUOHj7tcJYSSZCNStE7oOCtBOso3H8gkvWw2ArEmPfvyEOhsv5qUDj8ACyhCDlNV3Drl385hsm3rSP8K3DrpeMWDcW9e4TKZwYatfwGRD/aZ5odhfni9ZEBn1BX9Wl2yGGUFxiiPRhhLNkwOw/5m/0QkhonWe46cNuHnHApID7ui8jYlKfqMSZFKFd1dY11u3bFhOEDwJ2uAOdjQ+acbPIsP2e0dYndiP536IKFjUvQ+rjX3GWtSjsMvX3WLqwrXuUQh04vVkoH+a1mWOT+tucWo7Xu/w+1sA16JQRF/PVMZjPWTxAczvzUDLBkNz92eKdo=
+  app: lpa2-2019
+  on:
+    repo: MohamedCA2018/LPA2
