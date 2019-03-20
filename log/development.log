@@ -841,3 +841,20 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/products/1" for 127.0.0.1 at 2019-03-20 13:23:17 +0100
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 238ms (Views: 221.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2019-03-20 13:23:18 +0100
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 82ms (Views: 73.1ms | ActiveRecord: 0.3ms)
+
+
