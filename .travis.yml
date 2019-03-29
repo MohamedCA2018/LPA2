@@ -4,7 +4,7 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: R79ZxfW/st2mQJs2KdIyUu+roXAXnes2AMDKlQvGFPzv24c394OATUJoNMbWyWKeM2pqkoP161tFYtKS4xwQ+GscD9/8+SjympSJPlmf4qYo61nuU2E9zghDL1OayG9Pgajp9A+3GwBwINVOvH3loTPflzbNmSD5gQ1vxpuUDrpIRA1Bc2piSjA6SXT8L+aoxlm+Zk3ukhXqXWEC0Zk324ky/CoB1ogXoN9O4iMsBFIxLZltK9Tc+wEXhi1rog8npoPrfmqUnUxuma0tXMzvH3tXpkDix0BXSZi6FOTY27uKfooQB2ONcLIvFwtnn8V9UJT8K2t+uNJaOg6FceL92EY56gzC9lwa0Z/I20UHBoyYrSdqSzm3j7mIBY4P39B9v0nbFYtytKeCfdIzKbMYsQJbh/D4RfAJ2dgEk4EacFv9PnDrF4ddzzbeesN7VbAl9920ef0xGkqby1ECM7G89aFsNlcn/8NGk+uOjcOgUX3RVWxWJiVkVuxJ6D7fiw7qYkfUei4sPARJpiOm5h/1MoLBjbGtzt2xR2mGhxWb9hfafGHyBl6Heu9SF+tvZuINiVkSceNIXkIfFEJ9ZBusYyzczmJWlbLZKxOiJaN7fN1OmcCYVoUvMZAH4dHTnoWbWivsGButbI0q6NtXcEfcpn4DO89ItxVBjgeo7dWNAQk=
+    secure: 75a8724c-2650-4ef2-ad3c-dc06f28574a4
   app: lpa2-2019
   on:
     repo: MohamedCA2018/LPA2
